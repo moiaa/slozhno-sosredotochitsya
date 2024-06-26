@@ -40,3 +40,16 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+button {
+  border: none; 
+  outline: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li{
+  margin: 0;
+  padding: 0;
+}
