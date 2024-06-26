@@ -42,7 +42,6 @@ a {
 }
 
 button {
-  
   border: none; 
   outline: none;
   background-color: transparent;
@@ -50,8 +49,8 @@ button {
   padding: 0;
 }
 
-ul, 
-li { 
+ul,
+li {
   margin: 0;
   padding: 0;
 }

@@ -6,11 +6,6 @@
 
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-
   background-image: url(/images/cover-image-light.png);
   --accent-font: 'IBM Plex mono';  
   --main-color: #353430;
@@ -27,8 +22,6 @@
 
 
 :root.theme-light {
-  /* Переменные светлой темы */  
-  
   --accent-font: 'IBM Plex mono';  
   --main-color: #353430;
   --accent-color: #FFC2E6 ;
@@ -46,9 +39,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-      /* Дублируем переменные светлой темы */    
-      
-      --accent-font: 'IBM Plex mono';  
+    --accent-font: 'IBM Plex mono';  
       --main-color: #353430;
       --accent-color: #FFC2E6 ;
       --accent-title: #FF0070;
