@@ -310,7 +310,7 @@
   }
 
   .section__picture-list:last-of-type {
-    grid-column: 2/4; 
+    grid-column: 2/4;
     grid-row: 3;
   }
 
