@@ -16,26 +16,10 @@
   --title-color:#353430;
   --text-color: #353430;
   --bg-color: #FFF1F7;
+  --hover-color:rgba(50, 49, 45, 0.4);
   --display: none;
   --main-gap: 10px;
 }
-
-
-:root.theme-light {
-  --accent-font: 'IBM Plex mono';
-  --main-color: #353430;
-  --accent-color: #FFC2E6 ;
-  --accent-title: #FF0070;
-  --bg-text: #FF8DCB;
-  --text-header:  #353430;
-  --title-color:#353430;
-  --text-color: #353430;
-  --bg-color: #FFF1F7;
-  --display: none;
-  --main-gap: 10px;
-}
-
-/* Остальные стили */
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -48,6 +32,7 @@
     --title-color:#353430;
     --text-color: #353430;
     --bg-color: #FFF1F7;
+    --hover-color:rgba(50, 49, 45, 0.4);
     --display: none;
     --main-gap: 10px;
     }
