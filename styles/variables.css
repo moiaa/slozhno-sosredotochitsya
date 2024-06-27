@@ -14,4 +14,6 @@
   --bg-color: #000028;
   --display: visible;
   --main-gap: 10px;
+  --bg-image: url(/images/cover-image-dark.png);
+  --hover-color:rgba(255, 0, 112, 0.4);
 }

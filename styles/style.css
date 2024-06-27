@@ -5,7 +5,7 @@
   color: var(--text-color, #F1B2CE);
   font-family: var(--accent-font, sans-serif);
   background-color: var(--bg-color, #000028);
-  background-image: url(/images/cover-image-dark.png);
+  background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -90,6 +90,7 @@
   color: var(--main-color);
   text-transform: lowercase;
   padding: 1.4px 13px;
+  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
